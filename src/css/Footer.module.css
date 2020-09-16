@@ -1,0 +1,16 @@
+.Footer {
+    width: 100%;
+    height: 145px;
+    position: absolute;
+    background-color: black;
+    /* background-color:#FBFBFD; */
+}
+
+@media screen and (max-width: 840px) {
+  
+    .Footer {
+      position: static;
+      display: flex;
+      padding: 0;
+    }
+}
