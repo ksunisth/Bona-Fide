@@ -2,12 +2,13 @@
     width: auto;
     padding: 1.0em 0 1.0em 2em;
     box-sizing: border-box;
-    background-color: #FBFBFD;
+    background-color: #F4F5F4;
     height: auto;
 }
 
 .NavBarTitle {
     font-weight: bold;
+    color: #37447E;
     font-size: 30px;
     line-height: 40px;
     text-align: left;
@@ -16,6 +17,7 @@
 }
 
 .NavBarItems {
+    color: #37447E;
     float: right;
     font-size: 18px;
     position: relative;
@@ -45,7 +47,8 @@ a {
 @media screen and (max-width: 840px) {
     
     .NavBar {
-    width: auto;
+      width: auto;
+      color: #37447E;
       padding: 0.5em 0 2.6em 1em;
       box-sizing: border-box;
       background-color: white;
