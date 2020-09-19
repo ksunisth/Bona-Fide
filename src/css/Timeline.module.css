@@ -1,0 +1,115 @@
+body{
+    background-color: #13141d;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.steps{
+    display: flex;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 66.66%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.line{
+    height: 100%;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line div{
+    height: 100%;
+    width: 3px;
+    background-color: #202837;
+    pointer-events: none;
+}
+
+.stepsnum{
+    position: relative;
+    width: 5px;
+    height: 5px;
+    left: -5px;
+    border-radius: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    z-index: 10;
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(122, 122, 255);
+    color: white;
+    justify-content: center;
+}
+
+.stepsinfo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.stepsinfo .img{
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    padding: 20px;
+    background-color: #202837;
+    color: rgb(122, 122, 255);
+}
+
+.stepsinfo .img svg{
+    width: 65px;
+    height: 65px;
+}
+
+.steps .description{
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.steps .description .para{
+    margin-top: -5px;
+    color: #aaacbe;
+}
+
+
+@media (min-width: 576px) {
+
+}
+  
+@media (min-width: 768px) {
+    .stepsinfo{
+        flex-direction: row;
+    }
+    .container{
+        padding: 60px 30px;
+    }
+    .steps .description{
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
