@@ -3,7 +3,27 @@
     height: 145px;
     position: absolute;
     background-color: black;
-    /* background-color:#FBFBFD; */
+    background-color:#E7ECFF;
+}
+
+.Title {
+  color: #939EA4;
+  padding: 0 0 0 2em;
+}
+
+hr {
+  color: #939EA4;
+  margin-top: 2em;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+.Items a {
+  color: #939EA4;
+  float: left;
+  position: relative;
+  padding: 0.5em 0 0 2em;
+  
 }
 
 @media screen and (max-width: 840px) {
