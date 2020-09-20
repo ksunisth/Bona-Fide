@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../css/Timeline.module.css'
+
 class Timeline extends React.Component {
     render() {
       return (<div className={styles.steps}>
@@ -21,4 +22,5 @@ class Timeline extends React.Component {
     </div>);
     }
   }
-  export default Timeline;
+  
+export default Timeline;
